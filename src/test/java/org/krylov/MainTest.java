@@ -17,7 +17,7 @@ class MainTest {
 
 		var testClass = new Task1();
 
-		var output = testClass.execute(samples);
+		var output = testClass.evenAscendingOddDescending(samples);
 
 		assertArrayEquals(expect, output);
 	}

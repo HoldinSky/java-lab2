@@ -9,7 +9,8 @@ import java.util.Collections;
 // Для визначення кількості парних елементів використовуйте оператор взяття модуля "%".
 
 public class Task1 {
-	public int[] execute(int[] A) {
+
+	public int[] evenAscendingOddDescending(int[] A) {
 		int[] B = new int[A.length];
 
 		ArrayList<Integer> odd = new ArrayList<>();

@@ -7,6 +7,7 @@ package org.krylov;
 import java.util.HashSet;
 
 public class Task2<T> {
+
 	public boolean isSet(T[] A) {
 		var set = new HashSet<T>();
 

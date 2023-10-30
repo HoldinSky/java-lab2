@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class Task5 {
+
 	public int[] getDuplicates(int[] A) {
 		var frequencies = new HashMap<Integer, Integer>();
 		Arrays.stream(A).forEach(item -> frequencies.merge(item, 1, Integer::sum));
